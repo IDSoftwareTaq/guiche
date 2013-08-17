@@ -6,22 +6,57 @@
 <title>Home</title>
 <meta http-equiv="imagetoolbar" content="no">
 
+    <script>    
+         document.onkeydown = function () { 
+           switch (event.keyCode) {
+             case 116 :  
+                event.returnValue = false;
+                event.keyCode = 0;           
+                return false;             
+              case 82 : 
+                if (event.ctrlKey) {  
+                   event.returnValue = false;
+                  event.keyCode = 0;             
+                  return false;
+           }
+         }
+     } 
+     </script>
+
+
+<script language=JavaScript>
+<!--
+var mensagem="";
+function clickIE() {if (document.all) {(mensagem);return false;}}
+function clickNS(e) {if 
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {(mensagem);return false;}}}
+if (document.layers) 
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+document.oncontextmenu=new Function("return false")
+// --> 
+</script>
+
+
 <script>
+
 	function onSelectConvencional(){
 		<%Sistema.getInstance().gerarSenhaConvencional();%>
 		javascript: location.reload();
 	}
-	
+
 	function onSelectPrioritario(){
-		<%Sistema.getInstance().gerarSenhaConvencional();%>
+	 	<%Sistema.getInstance().gerarSenhaConvencional();%>
 		javascript: location.reload();
 	}
-	
+
 	function chamarSenha(){
 		<%Sistema.getInstance().removerSenha();%>
 		javascript: location.reload();
 	}
 </script>
+
 
 <style type="text/css">
 div#container {
@@ -191,7 +226,7 @@ a:hover {
 		<!--BOTAO AZUL -->
 
 		<!--BOTAO VERMELHO -->
-		<form name="form2" action="" onclick="javascript:onSelectPrioritario">
+		<form name="form2" action="" onclick="javascript:onSelectConvencional">
 			<div id="wb_Image4"
 				style="position: absolute; left: 307px; top: 655px; width: 256px; height: 256px; z-index: 5;">
 				<img src="images/Letter%20P%20red.png" id="Image4" alt=""
