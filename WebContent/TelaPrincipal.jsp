@@ -194,7 +194,7 @@ a:hover {
 			<tr>
 				<td
 					style="background-color: transparent; border: 1px #C0C0C0 solid; text-align: center; vertical-align: top; width: 156px; height: 86px;">
-					&nbsp; <h1><%=Sistema.getInstance().getHead().getSenha()%></h1></td>
+					&nbsp; </td>
 				<td
 					style="background-color: transparent; border: 1px #C0C0C0 solid; text-align: left; vertical-align: top; width: 156px; height: 86px;">
 					&nbsp;</td>
@@ -256,7 +256,10 @@ a:hover {
 			<tr>
 				<td
 					style="background-color: transparent; border: 1px #C0C0C0 solid; text-align: left; vertical-align: top; height: 150px;">
-					&nbsp;</td>
+					&nbsp;
+				    <font size="7" color="red" ><%=Sistema.getInstance().getHead().getSenha()%></font>
+
+					</td>
 			</tr>
 		</table>
 

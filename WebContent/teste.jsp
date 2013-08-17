@@ -102,46 +102,64 @@ a:hover
 {
    text-align: left;
 }
+#wb_Text2 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#Image2
+{
+   border: 0px #000000 solid;
+}
 </style>
+<script type="text/javascript" src="swfobject.js"></script>
 </head>
 <body>
 <div id="Layer2" style="position:absolute;text-align:center;left:0px;top:903px;width:100%;height:86px;z-index:1;" title="">
 <div id="Layer2_Container" style="width:995px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
-<div id="Layer1" style="position:absolute;text-align:center;left:0px;top:31px;width:100%;height:279px;z-index:2;" title="">
+<div id="Layer1" style="position:absolute;text-align:center;left:0px;top:31px;width:100%;height:184px;z-index:2;" title="">
 <div id="Layer1_Container" style="width:995px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_Image1" style="position:absolute;left:86px;top:92px;width:800px;height:102px;z-index:0;">
+<div id="wb_Image1" style="position:absolute;left:86px;top:46px;width:800px;height:102px;z-index:0;">
 <img src="images/Sem%20T%EDtulo-1.png" id="Image1" alt="" style="width:800px;height:102px;"></div>
 </div>
 </div>
 <div id="container">
-<table style="position:absolute;left:466px;top:416px;width:528px;height:303px;z-index:3;" id="Table1">
+<table style="position:absolute;left:519px;top:568px;width:461px;height:247px;z-index:3;" id="Table1">
 <tr>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:172px;height:146px;">
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:226px;height:118px;">
 &nbsp;</td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:172px;height:146px;">
-&nbsp;</td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;height:146px;">
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;height:118px;">
 &nbsp;</td>
 </tr>
 <tr>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:172px;height:148px;">
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:226px;height:120px;">
 &nbsp;</td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;width:172px;height:148px;">
-&nbsp;</td>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;height:148px;">
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;height:120px;">
 &nbsp;</td>
 </tr>
 </table>
-<table style="position:absolute;left:7px;top:417px;width:418px;height:304px;z-index:4;" id="Table2">
+<table style="position:absolute;left:521px;top:280px;width:461px;height:178px;z-index:4;" id="Table2">
 <tr>
-<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;height:298px;">
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:left;vertical-align:top;height:172px;">
 &nbsp;</td>
 </tr>
 </table>
-<div id="wb_Text1" style="position:absolute;left:7px;top:343px;width:434px;height:83px;z-index:5;text-align:left;">
-<span style="color:#000000;font-family:Arial;font-size:75px;">Senha Atual</span></div>
+<div id="wb_Text1" style="position:absolute;left:669px;top:228px;width:161px;height:39px;z-index:5;text-align:left;">
+<span style="color:#000000;font-family:Impact;font-size:32px;">Senha Atual</span></div>
+<div id="wb_Text2" style="position:absolute;left:626px;top:513px;width:253px;height:39px;z-index:6;text-align:left;">
+<span style="color:#000000;font-family:Impact;font-size:32px;">Senhas Chamadas</span></div>
+<div id="wb_Image2" style="position:absolute;left:9px;top:241px;width:499px;height:269px;z-index:7;">
+<img src="images/378223_130376017153176_1220503105_n.jpg" id="Image2" alt="" style="width:499px;height:269px;"></div>
+<div id="wb_YouTube1" style="position:absolute;left:1px;top:505px;width:506px;height:328px;z-index:8;">
+<iframe width="506" height="328" src="http://www.youtube.com/embed/Tkoc85KVJoM?rel=1&amp;autoplay=1&amp;version=3&amp;autohide=0&amp;theme=dark&amp;wmode=transparent"></iframe>
+</div>
 </div>
 </body>
 </html>
