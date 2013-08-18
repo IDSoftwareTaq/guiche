@@ -71,6 +71,8 @@ document.onclick=reEnable
 </script>
 
 
+
+
 <meta charset="ISO-8859-1">
 <title>Home</title>
 <meta http-equiv="imagetoolbar" content="no">
@@ -238,8 +240,10 @@ a:hover
 <div id="Layer1_Container" style="width:995px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_Text1" style="position:absolute;left:234px;top:253px;width:506px;height:19px;z-index:0;text-align:left;">
 <span style="color:#000000;font-family:Tahoma;font-size:16px;"><strong>Contato.: 081 9878-00300 | 0xx xxxx-xxxx | xxx xxxx-xxxx </strong></span></div>
+<form onclick="javascript:decisao()">
 <div id="wb_Image5" style="position:absolute;left:929px;top:220px;width:48px;height:48px;z-index:1;">
 <img src="images/Tools.png" id="Image5" alt="" style="width:48px;height:48px;"></div>
+</form>
 </div>
 </div>
 <div id="container">
@@ -247,19 +251,31 @@ a:hover
 <table style="position:absolute;left:29px;top:469px;width:352px;height:153px;z-index:5;" id="Table1">
 <tr>
 <td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;width:112px;height:68px;">
-&nbsp;</td>
+&nbsp;
+<b><span style="color:#000;font-family:verdana;font-size:37px">P007</span></b>
+</td>
 <td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;width:112px;height:68px;">
-&nbsp;</td>
+&nbsp;
+<b><span style="color:#000;font-family:verdana;font-size:37px">P006</span></b>
+</td>
 <td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;height:68px;">
-&nbsp;</td>
+&nbsp;
+<b><span style="color:#000;font-family:verdana;font-size:37px">P005</span></b>
+</td>
 </tr>
 <tr>
 <td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;width:112px;height:72px;">
-&nbsp;</td>
+&nbsp;
+<b><span style="color:#000;font-family:verdana;font-size:37px">P004</span></b>
+</td>
 <td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;width:112px;height:72px;">
-&nbsp;</td>
+&nbsp;
+<b><span style="color:#000;font-family:verdana;font-size:37px">P003</span></b>
+</td>
 <td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;height:72px;">
-&nbsp;</td>
+&nbsp;
+<b><span style="color:#000;font-family:verdana;font-size:37px">P002</span></b>
+</td>
 </tr>
 </table>
 <div id="wb_Image3" style="position:absolute;left:23px;top:618px;width:154px;height:154px;z-index:6;">
@@ -271,7 +287,9 @@ a:hover
 <table style="position:absolute;left:107px;top:373px;width:196px;height:92px;z-index:9;" id="Table2">
 <tr>
 <td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:center;vertical-align:center;height:82px;">
-&nbsp;</td>
+&nbsp;
+<b><span style="color:#000;font-family:verdana;font-size:55px">P002</span></b>
+</td>
 </tr>
 </table>
 <div id="wb_Image2" style="position:absolute;left:787px;top:335px;width:208px;height:216px;z-index:10;">
@@ -279,26 +297,38 @@ a:hover
 <table style="position:absolute;left:529px;top:604px;width:448px;height:165px;z-index:11;" id="Table3">
 <tr>
 <td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;width:144px;height:75px;">
-&nbsp;</td>
+&nbsp;
+<b><span style="color:#000;font-family:verdana;font-size:40px">P007</span></b>
+</td>
 <td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;width:144px;height:75px;">
-&nbsp;</td>
+&nbsp;
+<b><span style="color:#000;font-family:verdana;font-size:40px">P006</span></b>
+</td>
 <td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;height:75px;">
-&nbsp;</td>
+&nbsp;
+<b><span style="color:#000;font-family:verdana;font-size:40px">P005</span></b>
+</td>
 </tr>
 <tr>
 <td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;width:144px;height:77px;">
-&nbsp;</td>
+&nbsp;
+<b><span style="color:#000;font-family:verdana;font-size:40px">P004</span></b>
+</td>
 <td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;width:144px;height:77px;">
-&nbsp;</td>
+&nbsp;
+<b><span style="color:#000;font-family:verdana;font-size:40px">P003</span></b>
+</td>
 <td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;height:77px;">
-&nbsp;</td>
+&nbsp;
+<b><span style="color:#000;font-family:verdana;font-size:40px">P002</span></b>
+</td>
 </tr>
 </table>
 <table style="position:absolute;left:529px;top:463px;width:249px;height:124px;z-index:12;" id="Table4">
 <tr>
 <td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;height:114px;">
 &nbsp;
-<b><span style="color:#000;font-family:verdana;font-size:96px"><%=Sistema.getInstance().getHead().getSenha()%></span></b>
+<b><span style="color:#000;font-family:verdana;font-size:80px">P001</span></b>
 </td>
 </tr>
 </table>
