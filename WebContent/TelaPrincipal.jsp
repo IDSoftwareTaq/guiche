@@ -2,7 +2,7 @@
 <%@page import="model.Sistema"%>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+
 
  <script>    
          document.onkeydown = function () { 
@@ -70,6 +70,8 @@ document.onclick=reEnable
 //-->
 </script>
 
+
+<meta charset="ISO-8859-1">
 <title>Home</title>
 <meta http-equiv="imagetoolbar" content="no">
 <style type="text/css">
@@ -115,21 +117,12 @@ a:hover
 </style>
 <link rel="stylesheet" href="cupertino/jquery.ui.all.css" type="text/css">
 <style type="text/css">
-#Line1
-{
-   color: #DEEDF7;
-   background-color: #DEEDF7;
-   border-width: 0px;
-   -moz-box-shadow: 0px 0px 9999px #87CEFA;
-   -webkit-box-shadow: 0px 0px 9999px #87CEFA;
-   box-shadow: 0px 0px 9999px #87CEFA;
-   }
 #Layer2
 {
    background-color: #00BFFF;
-   -moz-box-shadow: 0px 0px 50px #000000;
-   -webkit-box-shadow: 0px 0px 50px #000000;
-   box-shadow: 0px 0px 50px #000000;
+   -moz-box-shadow: 0px 0px 35px #000000;
+   -webkit-box-shadow: 0px 0px 35px #000000;
+   box-shadow: 0px 0px 35px #000000;
 }
 #Table1
 {
@@ -156,9 +149,9 @@ a:hover
 #Layer1
 {
    background-color: #00BFFF;
-   -moz-box-shadow: 0px 0px 50px #000000;
-   -webkit-box-shadow: 0px 0px 50px #000000;
-   box-shadow: 0px 0px 50px #000000;
+   -moz-box-shadow: 0px 0px 35px #000000;
+   -webkit-box-shadow: 0px 0px 35px #000000;
+   box-shadow: 0px 0px 35px #000000;
 }
 #Image1
 {
@@ -208,7 +201,7 @@ a:hover
 }
 #Table4
 {
-   border: 3px #00BFFF ridge;
+   border: 3px #00BFFF solid;
    background-color: transparent;
    border-spacing: 1px;
 }
@@ -250,14 +243,14 @@ a:hover
 </div>
 </div>
 <div id="container">
-<hr id="Line1" class="ui-widget-header" style="margin:0;padding:0;position:absolute;left:487px;top:391px;width:4px;height:400px;z-index:4;">
-<table style="position:absolute;left:32px;top:463px;width:348px;height:151px;z-index:5;" id="Table1">
+<hr id="Line1" class="ui-widget-header" style="margin:0;padding:0;position:absolute;left:487px;top:311px;width:4px;height:591px;z-index:4;">
+<table style="position:absolute;left:29px;top:469px;width:352px;height:153px;z-index:5;" id="Table1">
 <tr>
-<td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;width:112px;height:70px;">
+<td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;width:112px;height:68px;">
 &nbsp;</td>
-<td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;width:112px;height:70px;">
+<td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;width:112px;height:68px;">
 &nbsp;</td>
-<td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;height:70px;">
+<td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;height:68px;">
 &nbsp;</td>
 </tr>
 <tr>
@@ -271,21 +264,19 @@ a:hover
 </table>
 <div id="wb_Image3" style="position:absolute;left:23px;top:618px;width:154px;height:154px;z-index:6;">
 <img src="images/Letter%20N%20blue.png" id="Image3" alt="" style="width:154px;height:154px;"></div>
-<div id="wb_Image4" style="position:absolute;left:234px;top:618px;width:154px;height:154px;z-index:7;">
-<img src="images/Letter%20P%20red.png" id="Image4" alt="" style="width:154px;height:154px;"></div>
+<div id="wb_Image4" style="position:absolute;left:234px;top:619px;width:153px;height:153px;z-index:7;">
+<img src="images/Letter%20P%20red.png" id="Image4" alt="" style="width:153px;height:153px;"></div>
 <div id="wb_Image1" style="position:absolute;left:182px;top:25px;width:621px;height:264px;z-index:8;">
 <img src="images/000.png" id="Image1" alt="" style="width:621px;height:264px;"></div>
-<table style="position:absolute;left:110px;top:333px;width:192px;height:120px;z-index:9;" id="Table2">
+<table style="position:absolute;left:107px;top:373px;width:196px;height:92px;z-index:9;" id="Table2">
 <tr>
-<td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;height:114px;">
+<td style="background-color:transparent;border:1px #C0C0C0 solid;text-align:center;vertical-align:center;height:82px;">
 &nbsp;</td>
 </tr>
 </table>
-<form name="form1" action="" onclick="javascript:onSelectConvencional()">
 <div id="wb_Image2" style="position:absolute;left:787px;top:335px;width:208px;height:216px;z-index:10;">
 <img src="images/Receptionist.png" id="Image2" alt="" style="width:208px;height:216px;"></div>
-</form>
-<table style="position:absolute;left:529px;top:604px;width:444px;height:161px;z-index:11;" id="Table3">
+<table style="position:absolute;left:529px;top:604px;width:448px;height:165px;z-index:11;" id="Table3">
 <tr>
 <td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;width:144px;height:75px;">
 &nbsp;</td>
@@ -303,7 +294,7 @@ a:hover
 &nbsp;</td>
 </tr>
 </table>
-<table style="position:absolute;left:530px;top:465px;width:192px;height:120px;z-index:12;" id="Table4">
+<table style="position:absolute;left:529px;top:463px;width:249px;height:124px;z-index:12;" id="Table4">
 <tr>
 <td style="background-color:transparent;border:1px #00BFFF ridge;text-align:center;vertical-align:center;height:114px;">
 &nbsp;
@@ -312,7 +303,7 @@ a:hover
 </tr>
 </table>
 <div id="wb_Text2" style="position:absolute;left:797px;top:543px;width:164px;height:60px;z-index:13;text-align:left;">
-<span style="color:#666666;font-family:Impact;font-size:48px;"><strong>Chamar</strong></span></div>
+<span style="color:#00BFFF;font-family:Impact;font-size:48px;"><strong>Chamar</strong></span></div>
 </div>
 </body>
 </html>
