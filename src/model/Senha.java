@@ -1,5 +1,6 @@
 package model;
 
+
 public class Senha {
 	
 	int senha, prioridade;
@@ -15,5 +16,14 @@ public class Senha {
 	
 	public int getPrioridade(){
 		return prioridade;
+	}
+	
+	@Override
+	public String toString(){
+		if (prioridade == 0){
+			return "C"+String.format("%03d", senha);
+		}else{
+			return "P"+String.format("%03d", senha);
+		}
 	}
 }

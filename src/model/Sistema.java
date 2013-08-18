@@ -1,5 +1,6 @@
 package model;
 
+
 public class Sistema {
 	
 	private static Sistema instancia = null; 
@@ -18,7 +19,6 @@ public class Sistema {
 	}
 	
 	public void gerarSenhaConvencional(){
-		System.out.println("chamou");
 		fila.addSenhaConvencional();
 	}
 	
@@ -26,16 +26,33 @@ public class Sistema {
 		fila.addSenhaPrioritaria();
 	}
 	
-	public Senha removerSenha(){
-		return fila.removerSenha();
+	public Senha chamarSenha(){
+		Senha retorno = fila.chamarSenha();
+		if (retorno == null){
+			return new Senha(0,0);
+		}
+		return retorno;
 	}
 	
-	public Senha getHead(){
-		System.out.println(fila.getHead().getSenha());
-		return fila.getHead();
+	public Senha getSenhaChamada(int indice){
+		Senha retorno = fila.getSenhaChamada(indice);
+		if (retorno == null){
+			return new Senha(0,0);
+		}else{
+			return retorno;
+		}
+	}
+	
+	public Senha getSenhaGerada(int indice){
+		Senha retorno = fila.getSenhaGerada(indice);
+		if (retorno == null){
+			return new Senha(0,0);
+		}else{
+			return retorno;
+		}
 	}
 	
 	public void zerarSistema(){
-		fila.removerSenha();
+		fila.zerarFila();
 	}
 }
